@@ -1,0 +1,14 @@
+#one{
+  background-color: blue;
+}
+#two{
+  background-color: green;
+}
+#three{
+  background-color: yellow;
+}
+.columns{
+  border:solid;
+  border-width:1px;
+  border-color:black;
+}
