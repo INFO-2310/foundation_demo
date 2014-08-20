@@ -9,20 +9,34 @@
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
-    <!--First example with divs floating next to each other-->
     <div class='row'>
-      <div class='large-4 columns' id='one'>
-        <h1>Hello World</h1>
-      </div>
-      <div class='large-8 columns'>
-        <h4>My name is Alex Meyers</h4>
+      <div class='large-12 columns'>
+        <h1>Profile</h1>
       </div>
     </div>
-
-    <!--Second example showing how additional rows work-->
+    <!--First example with divs floating next to each other-->
     <div class='row'>
-      <div class='large-6 large-offset-3 columns'>
-        <h2>Eh, what's up doc?</h2>
+      <div class='large-4 columns' id='profile_pic'>
+        <img src='img/prof_pic.png' alt='profile picture' />
+      </div>
+      <div class='large-8 columns'>
+        <!--Third example showing nesting within a div-->
+        <div class='large-6 small-6 columns'>
+          <h4>Alex Meyers</h4>
+        </div>
+        <div class='large-6 small-6 columns'>
+          <p>Hometown: Downingtown, PA</p>
+        </div>
+        <div class='large-12 small-12 columns'>
+          <b>Bio</b>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+        </div>
+        <div class='large-4 small-6 columns status'>
+          <h4>Status:</h4>
+        </div>
+        <div class='large-8 small-6 columns status'>
+          <h4>Eh, what's up doc?</h4>
+        </div>
       </div>
     </div>
 
