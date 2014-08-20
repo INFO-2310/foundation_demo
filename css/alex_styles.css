@@ -1,19 +1,19 @@
 #one{
-  background-color: blue;
+  background-color: #D8D8D8;
 }
-#two{
-  background-color: green;
+#four{
+  background-color: #0489B1;
 }
-#three{
-  background-color: yellow;
+#ten{
+  background-color: #CEECF5;
 }
 .columns{
   border:solid;
-  border-width:1px;
-  border-color:black;
+  border-width:2px;
+  border-color:#0B3B17
 }
 .row{
-  border-width:3px; 
-  border-style:dashed;
-  border-color:red;
+  border-width:5px; 
+  border-style:outset;
+  border-color:#58ACFA;
 }
